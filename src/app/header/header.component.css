@@ -1,0 +1,33 @@
+.si {
+  border:2px solid #fff;
+  padding: 0 2px 0 4px;
+  margin: 0 4px 0 0;
+  border-radius: .25rem;
+}
+.logo {
+  letter-spacing: 1.5px;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a i.fa {
+  padding: 0 4px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
